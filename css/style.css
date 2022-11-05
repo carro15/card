@@ -1,0 +1,63 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*estilo para body */
+body{
+    background-image: url(../img/759.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+
+
+}
+.manu ul{
+    list-style: none;
+
+}
+
+.menu ul li{
+    position: relative;
+    float: left;
+
+}
+
+.menu ul li a{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(168, 214, 214);
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(36, 197, 15);
+    color: rgb(218, 20, 20);
+
+}  
+/*etiqueta main*/
+
+main{
+    width: 90%;
+    background-color: rgb(126, 182, 182);
+    margin: 0 auto;
+}
+.container .card img{
+    width: 50%;
+}
